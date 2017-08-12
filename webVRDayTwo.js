@@ -12,6 +12,24 @@ vrHomePage.on('ready', function(events){
     radius: 0.10,
     distance: 1
   });
+    vrHomePage.addHotspot('creating-hotspot-2', {
+        pitch: -5,
+        yaw: 90,
+        radius: 0.10,
+        distance: 1
+    });
+    vrHomePage.addHotspot('creating-hotspot-3', {
+        pitch: -5,
+        yaw: 180,
+        radius: 0.10,
+        distance: 1
+    });
+    vrHomePage.addHotspot('creating-hotspot-4', {
+        pitch: -5,
+        yaw: -180,
+        radius: 0.10,
+        distance: 1
+    });
 });
 
 vrHomePage.on('click', function(event){
@@ -23,14 +41,6 @@ vrHomePage.on('click', function(event){
     });
   }
 }); 
-vrHomePage.on('ready', function(event){
-    vrHomePage.addHotspot('creating-hotspot-2', {
-        pitch: -5,
-        yaw: 90,
-        radius: 0.10,
-        distance: 1
-    });
-});
 
 vrHomePage.on('click', function(event){
     console.log('register all click events');
@@ -41,15 +51,6 @@ vrHomePage.on('click', function(event){
         });
     }
 });
-vrHomePage.on('ready', function(event){
-    vrHomePage.addHotspot('creating-hotspot-3', {
-        pitch: -5,
-        yaw: 180,
-        radius: 0.10,
-        distance: 1
-    });
-});
-
 vrHomePage.on('click', function(event){
     console.log('register all click events');
     if (event.id == 'creating-hotspot-3'){
@@ -58,12 +59,4 @@ vrHomePage.on('click', function(event){
             is_stereo: false
         });
     }
-});
-vrHomePage.on('ready', function(event){
-    vrHomePage.addHotspot('creating-hotspot-4', {
-        pitch: -5,
-        yaw: -180,
-        radius: 0.10,
-        distance: 1
-    });
 });
