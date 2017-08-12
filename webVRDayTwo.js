@@ -17,6 +17,7 @@ vrHomePage.on('ready', function(events){
 vrHomePage.on('click', function(event){
   console.log('register all click events');
   if (event.id == 'creating-hotspot-1'){
-    alert('i bEen clIked');
+    vrHomePage.setContent({
+        image: IMG
   }
 }); 
