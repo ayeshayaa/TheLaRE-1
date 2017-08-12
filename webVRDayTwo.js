@@ -30,6 +30,12 @@ vrHomePage.on('ready', function(events){
         radius: 0.10,
         distance: 1
     });
+     vrHomePage.addHotspot('hotspot-back', {
+      pitch: 0,
+      yaw: 0,
+      radius: 0.10,
+      distance: 1
+    });
 });
 
 vrHomePage.on('click', function(event){
