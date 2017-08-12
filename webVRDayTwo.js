@@ -40,6 +40,10 @@ vrHomePage.on('click', function(event){
         is_stereo: false
     });
   }
+    
+  if(event.id == 'hotspot-back') {
+    location.reload();
+  }
 }); 
 
 vrHomePage.on('click', function(event){
@@ -50,6 +54,10 @@ vrHomePage.on('click', function(event){
             is_stereo: false
         });
     }
+    
+  if(event.id == 'hotspot-back') {
+    location.reload();
+  }
 });
 vrHomePage.on('click', function(event){
     console.log('register all click events');
@@ -59,4 +67,8 @@ vrHomePage.on('click', function(event){
             is_stereo: false
         });
     }
+    
+  if(event.id == 'hotspot-back') {
+    location.reload();
+  }
 });
