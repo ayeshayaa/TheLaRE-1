@@ -23,3 +23,21 @@ vrHomePage.on('click', function(event){
     });
   }
 }); 
+vrHomePage.on('ready', function(event){
+    vrHomePage.addHotspot('creating-hotspot-2', {
+        pitch: -5,
+        yaw: 90,
+        radius: 0.10,
+        distance: 1
+    });
+});
+
+vrHomePage.on('click', function(event){
+    console.log('register all click events');
+    if (event.id == 'creating-hotspot-2'){
+        vrHOmePage.setContent({
+            image: 'IMG-2862.JPG',
+            is_stereo: false
+        });
+    }
+});
