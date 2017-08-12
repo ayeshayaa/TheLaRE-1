@@ -35,7 +35,7 @@ vrHomePage.on('ready', function(event){
 vrHomePage.on('click', function(event){
     console.log('register all click events');
     if (event.id == 'creating-hotspot-2'){
-        vrHOmePage.setContent({
+        vrHomePage.setContent({
             image: 'IMG-2862.JPG',
             is_stereo: false
         });
