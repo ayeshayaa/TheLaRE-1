@@ -59,3 +59,11 @@ vrHomePage.on('click', function(event){
         });
     }
 });
+vrHomePage.on('ready', function(event){
+    vrHomePage.addHotspot('creating-hotspot-4', {
+        pitch: -5,
+        yaw: -180,
+        radius: 0.10,
+        distance: 1
+    });
+});
