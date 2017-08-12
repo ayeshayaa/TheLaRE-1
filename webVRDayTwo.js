@@ -19,4 +19,4 @@ vrHomePage.on('click', function(event){
   if (event.id == 'creating-hotspot-1'){
     alert('i bEen clIked');
   }
-});
+}); 
