@@ -45,7 +45,8 @@ vrHomePage.on('click', function(event){
         image: 'FullSizeRender%20(1).jpg',
         is_stereo: false
     });
- if(event.id == 'hotspot-back') {
+  }
+  if(event.id == 'hotspot-back') {
     location.reload();
   }
 }); 
