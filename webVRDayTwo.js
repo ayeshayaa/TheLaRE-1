@@ -58,7 +58,8 @@ vrHomePage.on('click', function(event){
             image: 'IMG-2862.JPG',
             is_stereo: false
         });
-        if(event.id == 'hotspot-back') {
+    }
+    if(event.id == 'hotspot-back') {
     location.reload();
   }
     });
@@ -69,6 +70,7 @@ vrHomePage.on('click', function(event){
             image: 'IMG-2861.JPG',
             is_stereo: false
         });
+    }
     if(event.id == 'hotspot-back') {
     location.reload();
   }
