@@ -74,7 +74,7 @@ vrHomePage.on('ready', function(event) {
     });
 });
 vrHomePage.on('click', function(event) {
-  setOnClickEvents(event);
+  console.log('register all click events');
 });
 if (event.id == 'creating-hotspot-4') {
     theLareAlert('I CLICKED!');
