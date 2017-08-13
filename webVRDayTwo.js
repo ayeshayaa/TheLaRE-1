@@ -71,7 +71,7 @@ vrHomePage.on('click', function(event){
     location.reload();
   }
    
-    });
+    
 vrHomePage.on('click', function(event){
     console.log('register all click events');
     if (event.id == 'creating-hotspot-3'){
@@ -83,5 +83,5 @@ vrHomePage.on('click', function(event){
     if(event.id == 'hotspot-back') {
     location.reload();
   }
-});
+
 
