@@ -49,8 +49,7 @@ vrHomePage.on('click', function(event){
   })
   if(event.id == 'hotspot-back') {
     location.reload();
-  }
-); 
+  } 
 
 vrHomePage.on('click', function(event){
     console.log('register all click events');
