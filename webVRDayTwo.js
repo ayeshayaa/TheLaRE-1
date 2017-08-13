@@ -49,5 +49,17 @@ vrHomePage.on('click', function(event){
         is_stereo: false
     });
   }
+    if (event.id == 'creating-hotspot-2'){
+    vrHomePage.setContent({
+        image: 'IMG-2862.JPG',
+        is_stereo: false
+    });
+  }
+    if (event.id == 'creating-hotspot-3'){
+    vrHomePage.setContent({
+        image: 'IMG-2861.JPG',
+        is_stereo: false
+    });
+  }
    
   });
