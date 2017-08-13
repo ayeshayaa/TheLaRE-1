@@ -46,7 +46,7 @@ vrHomePage.on('click', function(event){
       radius: 0.10,
       distance: 1
     });
-  });
+  })
   if(event.id == 'hotspot-back') {
     location.reload();
   }
