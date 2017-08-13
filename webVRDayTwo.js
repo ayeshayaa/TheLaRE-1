@@ -23,14 +23,4 @@ vrHomePage.on('click', function(event){
         is_stereo: false
     });
   }
-     vrHomePage.addHotspot('hotspot-back', {
-      pitch: 0,
-      yaw: 0,
-      radius: 0.10,
-      distance: 1
-    });
-  })
-  if(event.id == 'hotspot-back') {
-    location.reload();
-  } 
-
+     
