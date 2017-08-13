@@ -51,7 +51,7 @@ vrHomePage.on('click', function(event){
       vrHomePage.setContent({
       image: 'IMG-2863.JPG',
       preview: 'IMG-2863.JPG',
-      is_stereo: true
+      is_stereo: false
     });
         
          vrHomePage.addHotspot('hotspot-back', {
