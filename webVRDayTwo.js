@@ -64,6 +64,11 @@ vrHomePage.on('click', function(event){
     if (event.id == 'creating-hotspot-4'){
         theLareAlert("This is the Brooklyn Bridge Park Environmental Education Center!");
     }
+         vrHomePage.setContent({
+      image: 'IMG-2863.JPG',
+      preview: 'IMG-2863.JPG',
+      is_stereo: true
+    });
         
          vrHomePage.addHotspot('hotspot-back', {
       pitch: 0,
