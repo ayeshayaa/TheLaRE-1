@@ -76,8 +76,6 @@ vrHomePage.on('ready', function(event) {
 vrHomePage.on('click', function(event) {
   setOnClickEvents(event);
 });
-var setOnClickEvents = function(event) {
-  
- if (event.id == 'creating-hotspot-4') {
+if (event.id == 'creating-hotspot-4') {
     theLareAlert('I CLICKED!');
   }
