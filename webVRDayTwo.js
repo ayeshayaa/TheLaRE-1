@@ -45,7 +45,7 @@ vrHomePage.on('click', function(event){
     
   if (event.id == 'creating-hotspot-1'){
     vrHomePage.setContent({
-        image: 'FullSizeRender%20(1).jpg',
+        image: 'IMG-2869.JPG',
         is_stereo: false
     });
   }
