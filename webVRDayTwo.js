@@ -63,6 +63,7 @@ vrHomePage.on('click', function(event){
   }
     if (event.id == 'creating-hotspot-4'){
         theLareAlert("This is the Brooklyn Bridge Park Environmental Education Center!");
+    }
         
         vrHomePage.setContent({
       image: 'assets/dolphins.jpg',
@@ -76,7 +77,7 @@ vrHomePage.on('click', function(event){
       radius: 0.10,
       distance: 1
     });
-    }
+        
    if(event.id == 'hotspot-back') {
     location.reload();
   }
