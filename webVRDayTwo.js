@@ -63,5 +63,21 @@ vrHomePage.on('click', function(event){
         is_stereo: false
     });
   }
-    
 });
+
+vrHomePage.on('ready', function(event) {
+    vrHomePage.addHotspot('creating-hotapot-4', {
+        pitch: 0,
+        yaw: 15,
+        radius: 0.10,
+        distance: 1,
+    });
+});
+vrHomePage.on('click', function(event) {
+  setOnClickEvents(event);
+});
+var setOnClickEvents = function(event) {
+  
+ if (event.id == 'creating-hotspot-4') {
+    theLareAlert('I CLICKED!');
+  }
