@@ -13,8 +13,14 @@ vrHomePage.on('ready', function(events){
     radius: 0.10,
     distance: 1
   });
-    
+    vrHomePage.addHotspot('creating-hotspot-2',{
+    pitch: -5,
+    yaw: 90,
+    radius: 0.10,
+    distance: 1
     });
+    
+});
 
 vrHomePage.on('click', function(event){
   console.log('register all click events');
