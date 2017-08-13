@@ -7,15 +7,33 @@ window.addEventListener('load', vrHomePage);
 
 vrHomePage.on('ready', function(events){
     
-  vrHomePage.addHotspot('creating-hotspot-1', {
+    vrHomePage.addHotspot('creating-hotspot-1', {
     pitch: -5,
     yaw: -90,
     radius: 0.10,
     distance: 1
-  });
+    });
     vrHomePage.addHotspot('creating-hotspot-2',{
     pitch: -5,
     yaw: 90,
+    radius: 0.10,
+    distance: 1
+    });
+    vrHomePage.addHotspot('creating-hotspot-3',{
+    pitch: -5,
+    yaw: 180,
+    radius: 0.10,
+    distance: 1
+    });
+    vrHomePage.addHotspot('creating-hotspot-4',{
+    pitch: -5,
+    yaw: 45,
+    radius: 0.10,
+    distance: 1
+    });
+    vrHomePage.addHotspot('creating-hotspot-5',{
+    pitch: -5,
+    yaw: -150,
     radius: 0.10,
     distance: 1
     });
