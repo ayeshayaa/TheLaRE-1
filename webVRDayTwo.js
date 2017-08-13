@@ -66,7 +66,7 @@ vrHomePage.on('click', function(event){
 });
 
 vrHomePage.on('ready', function(event) {
-    vrHomePage.addHotspot('creating-hotapot-4', {
+    vrHomePage.addHotspot('creating-hotspot-4', {
         pitch: 0,
         yaw: 15,
         radius: 0.10,
