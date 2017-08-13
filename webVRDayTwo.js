@@ -27,7 +27,7 @@ vrHomePage.on('ready', function(events){
     });
     vrHomePage.addHotspot('creating-hotspot-4',{
     pitch: -5,
-    yaw: 75,
+    yaw: 20,
     radius: 0.10,
     distance: 1
     });
