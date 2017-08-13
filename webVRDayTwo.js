@@ -48,11 +48,7 @@ vrHomePage.on('click', function(event){
         image: 'IMG-2869.JPG',
         is_stereo: false
     });
-      vrHomePage.setContent({
-      image: 'IMG-2869.JPG',
-      preview: 'IMG-2863.JPG',
-      is_stereo: false
-    });
+      
          vrHomePage.addHotspot('hotspot-back', {
       pitch: 0,
       yaw: 0,
@@ -62,6 +58,10 @@ vrHomePage.on('click', function(event){
         
    if(event.id == 'hotspot-back') {
     location.reload();
+       vrHomePage.setContent({
+      image: 'IMG-2869.JPG',
+      is_stereo: false
+    });
   }
   }
     if (event.id == 'creating-hotspot-2'){
