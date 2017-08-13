@@ -25,20 +25,7 @@ vrHomePage.on('ready', function(events){
     radius: 0.10,
     distance: 1
     });
-    vrHomePage.addHotspot('creating-hotspot-4',{
-    pitch: 0,
-    yaw: 15,
-    radius: 0.10,
-    distance: 1
-    });
-    vrHomePage.addHotspot('creating-hotspot-5',{
-    pitch: -5,
-    yaw: -150,
-    radius: 0.10,
-    distance: 1
-    });
-    
-});
+ });
 
 vrHomePage.on('click', function(event){
   console.log('register all click events');
@@ -76,7 +63,5 @@ vrHomePage.on('click', function(event){
         is_stereo: false
     });
   }
-    if (event.id == 'creating-hotspot-4'){
-        theLareAlert("This is the Brooklyn Bridge Park Environmental Education Center.");
-    }
- });
+    
+});
