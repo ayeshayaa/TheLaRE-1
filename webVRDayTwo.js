@@ -73,7 +73,7 @@ vrHomePage.on('ready', function(event) {
         distance: 1,
     });
 vrHomePage.on('click', function(event) {
-  console.log('Creating VR View Player');
+  console.log('register all click events');
 });
 if (event.id == 'creating-hotspot-4') {
     theLareAlert('I CLICKED!');
