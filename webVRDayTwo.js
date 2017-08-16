@@ -38,11 +38,13 @@ vrHomePage.on('click', function(event){
       
          
         
-   if(event.id == 'hotspot-back') {
+   
+  }
+    if(event.id == 'hotspot-back') {
     location.reload();
        
     }
-  }
+    
     if (event.id == 'creating-hotspot-2'){
     vrHomePage.setContent({
         image: 'IMG-2862.JPG',
