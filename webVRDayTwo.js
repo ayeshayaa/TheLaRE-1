@@ -36,31 +36,35 @@ vrHomePage.on('click', function(event){
         is_stereo: false
     });
       
-         vrHomePage.addHotspot('hotspot-back', {
-      pitch: 0,
-      yaw: 0,
-      radius: 0.10,
-      distance: 1
-    });
+         
         
    if(event.id == 'hotspot-back') {
     location.reload();
-       vrHomePage.setContent({
-      image: 'IMG-2869.JPG',
-      is_stereo: false
-    });
-  }
+       
+    }
   }
     if (event.id == 'creating-hotspot-2'){
     vrHomePage.setContent({
         image: 'IMG-2862.JPG',
         is_stereo: false
     });
+        vrHomePage.addHotspot('hotspot-back', {
+      pitch: 0,
+      yaw: 0,
+      radius: 0.10,
+      distance: 1
+    });
   }
     if (event.id == 'creating-hotspot-3'){
     vrHomePage.setContent({
         image: 'IMG-2861.JPG',
         is_stereo: false
+    });
+        vrHomePage.addHotspot('hotspot-back', {
+      pitch: 0,
+      yaw: 0,
+      radius: 0.10,
+      distance: 1
     });
   }
 });
